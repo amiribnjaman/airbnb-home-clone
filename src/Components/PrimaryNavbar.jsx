@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../Assets/Images/logo.png'
+import Logo from '../Assets/Images/logo1.png'
 
 export default function PrimaryNavbar() {
     return (
@@ -9,7 +9,7 @@ export default function PrimaryNavbar() {
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
                     <div className='md:w-[35%]'>
                         <a href="" class="flex items-center ">
-                            <img src={Logo} className="text-red-600" alt="Flowbite Logo" />
+                            <img src={Logo} className="w-[130px] h-[60px]text-red-600" alt="Flowbite Logo" />
                         </a>
                     </div>
 
@@ -19,7 +19,7 @@ export default function PrimaryNavbar() {
                             <form>
                                 <div class="relative">
                                     <input type="email" id="email" class="block w-[270px] pl-6 leading-6 rounded-full text-md text-sm text-black border-1 border-gray-200 font-bold shadow-md py-2 bg-gray-50 focus:ring-0 focus:border-none focus:shadow-lg dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Start your search" required />
-                                    <button type="submit" class="flex items-center justify-center text-white w-7 h-7 rounded-full absolute text-center right-2 bottom-1.5 bg-red-600 hover:bg-red-600 focus:outline-none focus:ring-0 font-medium text-sm dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    <button type="submit" class="flex items-center justify-center text-white w-7 h-7 rounded-full absolute text-center right-2 bottom-1.5 bg-[#FE595E] hover:bg-red-600 focus:outline-none focus:ring-0 font-medium text-sm dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                     <svg className='' xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"  fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
                                     </button>
                                 </div>
