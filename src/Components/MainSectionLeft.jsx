@@ -3,6 +3,7 @@ import RentalServiceCard from './RentalServiceCard'
 import MeetHost from './MeetHost'
 import AboutPlace from './AboutPlace'
 import Sleep from './Sleep'
+import PlaceOffer from './PlaceOffer'
 
 export default function MainSectionLeft() {
     return (
@@ -61,9 +62,12 @@ export default function MainSectionLeft() {
             <AboutPlace />
 
             {/* Sleep component */}
-            <hr className='mb-10'/>
+            <hr className='mb-10' />
             <Sleep />
-            <hr className='mt-10' />
+            <hr className='my-10' />
+
+            {/* Place offers component */}
+            <PlaceOffer />
         </section>
     )
 }
