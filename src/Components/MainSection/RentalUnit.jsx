@@ -1,13 +1,9 @@
 import React from 'react'
 import RentalServiceCard from './RentalServiceCard'
-import MeetHost from './MeetHost'
-import AboutPlace from './AboutPlace'
-import Sleep from './Sleep'
-import PlaceOffer from './PlaceOffer'
 
-export default function MainSectionLeft() {
+export default function RentalUnit() {
     return (
-        <section>
+        <div>
             {/* Heading with image */}
             <div className='flex justify-between gap-x-10'>
                 <h2 className='font-semibold text-lg'>Room in a rental unit hosted by Sagrario</h2>
@@ -54,20 +50,6 @@ export default function MainSectionLeft() {
             <hr className='my-6' />
             <p>Some text has been automatically translated <a className='underline font-semibold' href="">Show original language</a></p>
             <hr className='my-6' />
-
-            {/* Meet Host component */}
-            <MeetHost />
-
-            {/* About place component */}
-            <AboutPlace />
-
-            {/* Sleep component */}
-            <hr className='mb-10' />
-            <Sleep />
-            <hr className='my-10' />
-
-            {/* Place offers component */}
-            <PlaceOffer />
-        </section>
+        </div>
     )
 }

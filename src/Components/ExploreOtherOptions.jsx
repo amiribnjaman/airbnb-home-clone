@@ -3,8 +3,8 @@ import React from 'react'
 export default function ExploreOtherOptions() {
     return (
         <>
-            <div className='mt-4'>
-                <hr />
+            <div className='mt-6 bg-gray-100 pb-4'>
+                <hr className='mb-14 ' />
                 <div className='w-[90%] mx-auto'>
 
                     {/* Top heading and option */}

@@ -7,7 +7,8 @@ import ExploreOtherOptions from './Components/ExploreOtherOptions';
 import ThingstoKnow from './Components/ThingstoKnow';
 import Reviews from './Components/Reviews';
 import { useEffect, useState } from 'react';
-import MainSection from './MainSection';
+import MainSection from './Components/MainSection/MainSection';
+import Location from './Components/Location';
 
 function App() {
   // const [name, setName] = useState('')
@@ -34,6 +35,7 @@ function App() {
       <Banner />
       <MainSection />
       <Reviews />
+      <Location />
       <ThingstoKnow />
       <ExploreOtherOptions />
       <Footer />

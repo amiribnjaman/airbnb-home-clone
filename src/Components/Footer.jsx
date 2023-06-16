@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div>
+        <div className='bg-gray-100 mt-[-32px]'>
             <hr className='mt-8 mb-12'/>
             <footer class="static bottom-0 dark:bg-gray-900">
                 <div class="w-[90%] items-center mx-auto max-w-screen-xl">
@@ -69,13 +69,13 @@ export default function Footer() {
                     <hr class="mt-7 mb-2 border-gray-200 sm:mx-auto dark:border-gray-700" />
 
                     {/*------------Footer Bottom section --------------*/}
-                    <div class="text-center md:flex sm:items-center sm:justify-between">
+                    <div class="text-center md:flex sm:items-center sm:justify-between pb-2">
 
                         {/* Footer bottom left */}
-                        <div className='flex'>
+                        <div className='flex items-center justify-center'>
                             <span class="text-sm text-black sm:text-center dark:text-gray-400">&copy; 2023 Airbng, Inc. </span>
                             <div className=''>
-                                <ul class="ml-[16%] mt-2 md:mt-0 md:ml-0 flex space-x-2 md:space-x-4 text-black dark:text-gray-400 font-normal">
+                                <ul class="ml-2 mt-0 md:ml-0 flex space-x-2 md:space-x-4 text-black dark:text-gray-400 font-normal">
                                     <li class=" text-sm">
                                         <a href='/terms/condition' class="hover:underline ">Terms</a>
                                     </li>
@@ -93,8 +93,8 @@ export default function Footer() {
                         </div>
 
                         {/* Footer bottom right */}
-                        <div className='flex'>
-                            <ul class="ml-[16%] mt-2 md:mt-0 md:ml-0 flex space-x-2 md:space-x-4 text-black dark:text-gray-400 font-normal">
+                        <div className='flex items-center justify-center'>
+                            <ul class="mt-2 md:mt-0 ml-0 flex space-x-2 md:space-x-4 text-black dark:text-gray-400 font-normal">
                                 <li class=" text-sm">
                                     <a href='/terms/condition' class="hover:underline ">English (US)</a>
                                 </li>
