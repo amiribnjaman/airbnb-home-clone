@@ -1,14 +1,20 @@
 import './App.css';
 import 'flowbite';
 import PrimaryNavbar from './Components/PrimaryNavbar';
-import Logo from './logo.svg'
 import Footer from './Components/Footer';
+import Banner from './Components/Banner';
+import ExploreOtherOptions from './Components/ExploreOtherOptions';
+import ThingstoKnow from './Components/ThingstoKnow';
+import Reviews from './Components/Reviews';
 
 function App() {
   return (
     <div className="App">
      <PrimaryNavbar />
-     <hr />
+     <Banner />
+     <Reviews />
+     <ThingstoKnow />
+     <ExploreOtherOptions />
      <Footer />
     </div>
   );

@@ -3,12 +3,13 @@ import React from 'react'
 export default function Footer() {
     return (
         <div>
+            <hr className='mt-8 mb-12'/>
             <footer class="static bottom-0 dark:bg-gray-900">
-                <div class="w-[90%] items-center mx-auto max-w-screen-xl p-4 py-6 lg:py-8">
+                <div class="w-[90%] items-center mx-auto max-w-screen-xl">
                     {/*---------------- Footer Top Section-----------------*/}
-                    <div class="md:flex md:justify-between mt-4">
+                    <div class="md:flex md:gap-x-40">
                         <div className=''>
-                            <h2 class="md:mb-9 mb-3 text-md font-bold text-black  dark:text-white">Privacy and Terms</h2>
+                            <h2 class="mb-3 text-md font-bold text-black  dark:text-white">Privacy and Terms</h2>
                             <ul class="text-black dark:text-gray-400 font-normal md:mt-8 mt-4">
                                 <li class="">
                                     <a href='/privacy/policy' class="hover:underline ">Privacy policy</a>

@@ -6,7 +6,7 @@ export default function PrimaryNavbar() {
         <div>
 
             <nav class="w-[90%] py-1 mx-auto bg-white border-gray-200 dark:bg-gray-900">
-                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
                     <div className='md:w-[35%]'>
                         <a href="" class="flex items-center ">
                             <img src={Logo} className="text-red-600" alt="Flowbite Logo" />
