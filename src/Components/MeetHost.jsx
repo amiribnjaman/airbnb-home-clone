@@ -32,6 +32,25 @@ export default function MeetHost() {
                             </div>
                         </div>
                     </div>
+
+                    {/* Description */}
+                    <div className='mt-6'>
+                        <ul className='text-[13px] gap-y-2 flex flex-col font-semibold'>
+                            <li>Born in 60s</li>
+                            <li>My work: coach</li>
+                            <li>Fun facts: no one believes my age</li>
+                            <li>For guest, I always: Help them enjoy Valencia</li>
+                            <li>What makes my home unique: Good energy and felling at home</li>
+                        </ul>
+                        <p className='mt-5 font-semibold text-[13px] mb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit inventore magnam sunt cupiditate repellendus a repudiandae fugit sed blanditiis?</p>
+                        <a href="" className='underline font-semibold'>Show more</a>
+
+                        <div className='mt-6'>
+                        <button className='bg-black py-2 px-3 text-sm rounded text-white '>Message Host</button>
+                        </div>
+                        <hr className='my-6' />
+                        <p className='text-[12px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem consectetur accusamus nam id sunt eveniet, perferendis omnis dignissimos asperiores praesentium.</p>
+                    </div>
                 </div>
             </div>
 
