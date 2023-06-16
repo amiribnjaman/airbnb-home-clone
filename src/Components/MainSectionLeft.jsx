@@ -1,8 +1,10 @@
 import React from 'react'
 import RentalServiceCard from './RentalServiceCard'
 import MeetHost from './MeetHost'
+import AboutPlace from './AboutPlace'
+import Sleep from './Sleep'
 
-export default function RoomRentalUnit() {
+export default function MainSectionLeft() {
     return (
         <section>
             {/* Heading with image */}
@@ -52,8 +54,16 @@ export default function RoomRentalUnit() {
             <p>Some text has been automatically translated <a className='underline font-semibold' href="">Show original language</a></p>
             <hr className='my-6' />
 
-            {/* Host section */}
+            {/* Meet Host component */}
             <MeetHost />
+
+            {/* About place component */}
+            <AboutPlace />
+
+            {/* Sleep component */}
+            <hr className='mb-10'/>
+            <Sleep />
+            <hr className='mt-10' />
         </section>
     )
 }
