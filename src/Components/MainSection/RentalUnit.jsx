@@ -1,5 +1,6 @@
 import React from 'react'
 import RentalServiceCard from './RentalServiceCard'
+import HostImg from '../../Assets/Images/host.png'
 
 export default function RentalUnit() {
     return (
@@ -8,7 +9,7 @@ export default function RentalUnit() {
             <div className='flex justify-between gap-x-10'>
                 <h2 className='font-semibold text-[22px]'>Room in a rental unit hosted by Sagrario</h2>
                 <div>
-                    <img className='w-10 h-10 rounded-full bg-gray-200' src="" alt="" />
+                    <img className='w-10 h-10 rounded-full' src={HostImg} alt="" />
                 </div>
             </div>
 
@@ -28,21 +29,21 @@ export default function RentalUnit() {
                     <img className='w-10 h-10 rounded-full' src="" alt="" />
                     <div>
                         <h5 className='text-md font-semibold'>Room in rental unit</h5>
-                        <p className='text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, itaque.</p>
+                        <p className='text-[13px] text-[#717375] font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, itaque.</p>
                     </div>
                 </div>
                 <div className='flex gap-4'>
                     <img className='w-10 h-10 rounded-full' src="" alt="" />
                     <div>
                         <h5 className='text-md font-semibold'>Room in rental unit</h5>
-                        <p className='text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, itaque.</p>
+                        <p className='text-[13px] text-[#717375] font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, itaque.</p>
                     </div>
                 </div>
                 <div className='flex gap-4'>
                     <img className='w-10 h-10 rounded-full' src="" alt="" />
                     <div>
                         <h5 className='text-md font-semibold'>Room in rental unit</h5>
-                        <p className='text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, itaque.</p>
+                        <p className='text-[13px] text-[#717375] font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, itaque.</p>
                     </div>
                 </div>
             </div>

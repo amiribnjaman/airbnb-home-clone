@@ -2,6 +2,8 @@ import React from 'react'
 import Banner1 from '../Assets/Images/banner1.png'
 import Banner2 from '../Assets/Images/banner2.png'
 import Banner3 from '../Assets/Images/banner3.png'
+import Banner4 from '../Assets/Images/banner4.png'
+import Banner5 from '../Assets/Images/banner5.png'
 
 export default function Banner() {
     return (
@@ -52,10 +54,10 @@ export default function Banner() {
                             <img src={Banner3} height={100} alt="" />
                         </div>
                         <div className='col-span-1'>
-                            <img src={Banner3} alt="" />
+                            <img src={Banner4} alt="" />
                         </div>
                         <div className='col-span-1'>
-                            <img className='' src={Banner3} alt="" />
+                            <img className='' src={Banner5} alt="" />
                         </div>
                     </div>
                 </div>
