@@ -3,7 +3,7 @@ import MainSectionLeft from './MainSectionLeft'
 
 export default function MainSection() {
     return (
-        <section className='w-[90%] mx-auto my-12 md:flex md:justify-between md:gap-x-10 relative'>
+        <section className='w-[88%] mx-auto my-12 md:flex md:justify-between md:gap-x-10 relative'>
             {/* Main section left */}
             <div className='md:w-[58%]'>
                 {/* Main section left component. this component holds others component */}

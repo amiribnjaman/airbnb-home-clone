@@ -7,7 +7,7 @@ export default function Banner() {
     return (
         <>
             <hr className='py-2' />
-            <div className='w-[90%] mx-auto'>
+            <div className='w-[88%] mx-auto'>
                 {/* Header */}
                 <h1 className='text-2xl mb-1 font-semibold'>Enjoy historic Valencia and close to the beach.</h1>
                 <div className='flex justify-between'>
