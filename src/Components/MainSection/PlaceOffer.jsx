@@ -5,7 +5,7 @@ export default function PlaceOffer() {
         <div>
             <h3 className='text-lg font-semibold mb-8 mt-2'>What this place offers</h3>
             <div>
-                <div className='mt-4 flex gap-8'>
+                <div className='mt-4 md:flex gap-8'>
                     <ul className='font-semibold text-[12px] flex flex-col gap-y-5'>
                         <li>Lorem ipsum dolor sit amet.</li>
                         <li>Quae commodi ad aliquam magnam?</li>

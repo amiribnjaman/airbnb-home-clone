@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {DatePickerProvider} from '@bcad1591/react-date-picker';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <DatePickerProvider>
     <App />
+    </DatePickerProvider>
   </React.StrictMode>
 );
 

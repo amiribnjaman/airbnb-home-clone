@@ -1,17 +1,17 @@
 import React from 'react'
 import MainSectionLeft from './MainSectionLeft'
-import MainSectionRight from './MainSectionRight'
 
 export default function MainSection() {
     return (
-        <div className='w-[90%] mx-auto mt-8 mb-10 md:flex md:justify-between gap-x-10 relative'>
+        <section className='w-[90%] mx-auto mt-8 mb-10 md:flex md:justify-between md:gap-x-10 relative'>
             {/* Main section left */}
             <div className='md:w-[58%]'>
+                {/* Main section left component. this component holds others component */}
                 <MainSectionLeft />
             </div>
 
             {/* Main section right */}
-            <div className='w-[35%] top-4 right-0 sticky h-[100px]'>
+            <div className='md:w-[35%] top-24 right-0 sticky my-10 md:my-0 md:h-[100px]'>
                 {/* Availability card */}
                 <div class="border p-4 bg-white shadow-md rounded-md dark:bg-gray-800 dark:border-gray-700">
                     <div className='flex justify-between'>
@@ -32,6 +32,6 @@ export default function MainSection() {
                     <a href="" className='underline font-semibold text-[11px] '>Report this listing</a>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

@@ -13,7 +13,7 @@ export default function RentalUnit() {
             </div>
 
             {/* Rental services */}
-            <div className='flex justify-between gap-x-4 mt-4'>
+            <div className='md:flex gap-y-4 md:gap-y-0 justify-between md:gap-x-4 mt-4'>
                 {/* Rental servicel single card */}
                 <RentalServiceCard svgImg={''} text={'I double bed'} />
                 <RentalServiceCard svgImg={''} text={'Shared Bathroom'} />

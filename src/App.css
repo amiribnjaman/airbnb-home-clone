@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Calender custom styles */
+.calender .jjxnOy {
+    min-width: 500px !important;
+    padding: 30px 0 !important;
+}
+.iVNdVk{
+    font-weight: 600;
+}
+.calender .eCkURD {
+    width: 50%;
+    padding: 0 20px !important;
+}
+.iWjKOk {
+    height: 30px !important;
+    width: 30px !important;
+}
+.dGYNXH{
+    height: 35px !important;
+    width: 35px !important;
+}
+
