@@ -9,74 +9,42 @@
     },
     {
         "id": 2,
-        "name": "Natasha",
+        "name": "Martin",
         "image": "./img/cos1.jpg",
-        "date": "May 2020",
-        "comment": "Greate location and wonderful host, counldn't ask for more",
+        "date": "May 2023",
+        "comment": "I had a Great Time Staying at Sagrario’s place! Her apartment is perfectly located in the centre of el Carmen. Her information on festivities and the area were one of a kind. I can only",
         "rating": "4.9"
     },
     {
         "id": 3,
-        "name": "Natasha",
+        "name": "Saski",
         "image": "./img/cos1.jpg",
         "date": "May 2020",
-        "comment": "Greate location and wonderful host, counldn't ask for more Greate location and wonderful host, counldn't ask for more Greate location and wonderful host, counldn't ask for more Greate location and wonderful host, counldn't ask for moreGreate location and wonderful host, counldn't ask for moreGreate location and wonderful host, counldn't ask for more",
+        "comment": "She was really kind. Gracias Sagrario!",
         "rating": "4.9"
     },
     {
         "id": 4,
-        "name": "Natasha",
+        "name": "Merel",
         "image": "./img/cos1.jpg",
         "date": "May 2020",
-        "comment": "Greate location and wonderful host, counldn't ask for more",
+        "comment": "Sagrario is a superhost! She is very kind, helpful and friendly. She gives you advice about activities in Valencia.The apartment is great, clean and in the middle of the historic",
         "rating": "4.9"
     },
     {
         "id": 5,
-        "name": "Natasha",
+        "name": "Sean",
         "image": "./img/cos1.jpg",
-        "date": "May 2020",
-        "comment": "Greate location and wonderful host, counldn't ask for more",
+        "date": "Dec 2021",
+        "comment": "I loved staying with Sagrario. She is an incredible host. She’s friendly, always responds quickly and she made me feel at home. She gave me more than enough recommendations fo",
         "rating": "4.9"
     },
     {
         "id": 6,
-        "name": "Natasha",
+        "name": "Clara",
         "image": "./img/cos1.jpg",
         "date": "May 2020",
-        "comment": "Greate location and wonderful host, counldn't ask for more",
-        "rating": "4.9"
-    },
-    {
-        "id": 7,
-        "name": "Natasha",
-        "image": "./img/cos1.jpg",
-        "date": "May 2020",
-        "comment": "Greate location and wonderful host, counldn't ask for more",
-        "rating": "4.9"
-    },
-    {
-        "id": 8,
-        "name": "Natasha",
-        "image": "./img/cos1.jpg",
-        "date": "May 2020",
-        "comment": "Greate location and wonderful host, counldn't ask for more",
-        "rating": "4.9"
-    },
-    {
-        "id": 9,
-        "name": "Natasha",
-        "image": "./img/cos1.jpg",
-        "date": "May 2020",
-        "comment": "Greate location and wonderful host, counldn't ask for more",
-        "rating": "4.9"
-    },
-    {
-        "id": 10,
-        "name": "Natasha",
-        "image": "./img/cos1.jpg",
-        "date": "May 2020",
-        "comment": "Greate location and wonderful host, counldn't ask for more",
+        "comment": "Best bnb host! Very helpful whenever you need recommendations, very welcoming and makes you feel at home. Everything was perfect!",
         "rating": "4.9"
     }
 ]
