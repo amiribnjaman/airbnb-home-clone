@@ -18,7 +18,7 @@ export default function Reviews() {
                 <span>4.87 &#8226; 171 reviews</span></h4>
 
             {/* Reviews top section */}
-            <div className='grid grid-cols-2 gap-x-28 gap-y-2 mb-8'>
+            <div className='grid md:grid-cols-2 gap-x-28 gap-y-2 mb-8'>
                 <div className='flex flex-col gap-y-2'>
                     <div className='flex justify-between items-center'>
                         <h6>Cleanliness</h6>
@@ -64,7 +64,7 @@ export default function Reviews() {
 
             {/* Reviews main section */}
             <div className='flex'>
-                <div className='gap-x-28 gap-y-10 grid grid-cols-2'>
+                <div className='gap-x-28 gap-y-10 grid md:grid-cols-2'>
                     {
                         // Maping reviews and show through ReviewSingleCard
                         reviews.map(review => <ReviewSingleCard review={review} />)
