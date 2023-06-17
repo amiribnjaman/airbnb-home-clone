@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className='bg-gray-100 mt-[-32px]'>
+        <div className='bg-[#F5F5F5] mt-[-32px]'>
             <hr className='mt-8 mb-12'/>
             <footer class="static bottom-0 dark:bg-gray-900">
                 <div class="w-[90%] items-center mx-auto max-w-screen-xl">

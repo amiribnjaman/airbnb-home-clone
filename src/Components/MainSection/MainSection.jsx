@@ -3,7 +3,7 @@ import MainSectionLeft from './MainSectionLeft'
 
 export default function MainSection() {
     return (
-        <section className='w-[90%] mx-auto mt-8 mb-10 md:flex md:justify-between md:gap-x-10 relative'>
+        <section className='w-[90%] mx-auto my-12 md:flex md:justify-between md:gap-x-10 relative'>
             {/* Main section left */}
             <div className='md:w-[58%]'>
                 {/* Main section left component. this component holds others component */}
@@ -11,9 +11,9 @@ export default function MainSection() {
             </div>
 
             {/* Main section right */}
-            <div className='md:w-[35%] top-24 right-0 sticky my-10 md:my-0 md:h-[100px]'>
+            <div className='md:w-[35%] top-28 right-0 sticky my-10 md:my-0 md:h-[100px]'>
                 {/* Availability card */}
-                <div class="border p-4 bg-white shadow-md rounded-md dark:bg-gray-800 dark:border-gray-700">
+                <div class="border p-4 bg-white shadow-lg rounded-md dark:bg-gray-800 dark:border-gray-700">
                     <div className='flex justify-between'>
                         <h4 className='font-semibold text-lg'>$37 <span className='font-normal text-[12px]'>night</span></h4>
                         <div className='flex items-center'>

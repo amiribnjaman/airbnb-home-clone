@@ -5,37 +5,42 @@ export default function PrimaryNavbar() {
     return (
         <div>
 
-            <nav class="w-[90%] mx-auto bg-white border-gray-200 dark:bg-gray-900">
-                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
-                    <div className='md:w-[35%]'>
+            <nav class="w-[88%] mx-auto bg-white border-gray-200 dark:bg-gray-900">
+                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-1">
+                    <div className='md:w-[35%] -ml-2'>
                         <a href="" class="flex items-center ">
-                            <img src={Logo} className="w-[130px] h-[60px]text-red-600" alt="Flowbite Logo" />
+                            <img src={Logo} className="w-[120px] h-[70px] text-[#FF385C]" alt="Flowbite Logo" />
                         </a>
                     </div>
 
-                    <div className='md:w-[65%] flex flex-wrap items-center justify-between'>
+                    <div className='md:w-[62%] flex flex-wrap items-center justify-between'>
                         {/*---------- Search Box-------*/}
                         <div className='hidden md:block '>
                             <form>
                                 <div class="relative">
-                                    <input type="email" id="email" class="block w-[270px] pl-6 leading-6 rounded-full text-md text-sm text-black border-1 border-gray-200 font-bold shadow-md py-2 bg-gray-50 focus:ring-0 focus:border-none focus:shadow-lg dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Start your search" required />
-                                    <button type="submit" class="flex items-center justify-center text-white w-7 h-7 rounded-full absolute text-center right-2 bottom-1.5 bg-[#FE595E] hover:bg-red-600 focus:outline-none focus:ring-0 font-medium text-sm dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    <input type="email" id="email" class="block w-[285px] pl-6 leading-6 rounded-full text-md text-black border-1 border-gray-300 font-normal shadow-md py-2.5 bg-gray-50 focus:ring-0 focus:border-none focus:shadow-lg dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Start your search" required />
+                                    <button type="submit" class="flex items-center justify-center text-white w-8 h-8 rounded-full absolute text-center right-2 bottom-2 bg-[#FF385C] hover:bg-red-600 focus:outline-none focus:ring-0 font-medium text-sm dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                         <svg className='' xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" /></svg>
                                     </button>
                                 </div>
                             </form>
                         </div>
                         <div className='flex'>
+
+
+                            {/* Menu button */}
                             <div class="flex items-center md:order-2">
-                                <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex shadow ml-2 items-center font-medium justify-center px-3 py-1 rounded-full text-sm text-gray-900 dark:text-white cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                                <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex border ml-2 items-center font-medium justify-center px-3 py-2 rounded-full text-sm text-gray-900 dark:text-white cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
 
                                     <div className='space-x-4 flex items-center'>
                                         <svg xmlns="http://www.w3.org/2000/svg" height={15} width={15} viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" /></svg>
-                                        <div className='p-1 bg-gray-400 text-white rounded-full'>
-                                            <svg className='' xmlns="http://www.w3.org/2000/svg" height={15} width={15} viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" fill="currentColor" /></svg>
+                                        <div className='p-1 bg-gray-500 text-white rounded-full'>
+                                            <svg className='p-[1px]' xmlns="http://www.w3.org/2000/svg" height={21} width={21} viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" fill="currentColor" /></svg>
                                         </div>
                                     </div>
                                 </button>
+
+                                {/* Sub menu */}
                                 <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700" id="language-dropdown-menu">
                                     <ul class="py-2 font-medium" role="none">
                                         <li>
@@ -82,7 +87,7 @@ export default function PrimaryNavbar() {
                             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-language-select">
                                 <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-2 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                                     <li className='hidden md:block px-3 py-2 hover:bg-gray-100 rounded-full cursor-pointer'>
-                                        <a href="#" class="block py-2 pl-3 pr-4 text-white bg-black rounded md:bg-transparent font-normal hover:bg-gray-100 md:text-black md:p-0 md:dark:text-blue-500" aria-current="page">Airbnb your home</a>
+                                        <a href="#" class="block font-semibold py-2 pl-3 pr-4 text-white bg-black rounded md:bg-transparent text-[14px] hover:bg-gray-100 md:text-black md:p-0 md:dark:text-blue-500" aria-current="page">Airbnb your home</a>
                                     </li>
                                     <li className='hidden md:block cursor-pointer px-3 py-2 hover:bg-gray-100 rounded-full'>
                                         <a href="#" class="bg-white text-black block pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 mt-1 md:p-0 md:hover:bg-transparent   dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 hover:bg-gray-100 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">

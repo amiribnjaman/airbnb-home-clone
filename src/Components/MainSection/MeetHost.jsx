@@ -6,7 +6,7 @@ export default function MeetHost() {
             {/* Heading */}
             <h3 className='text-lg font-semibold mb-8 mt-2'>Meet our host</h3>
 
-            <div className='bg-gray-100 rounded-lg px- py-12'>
+            <div className='bg-[#F5F5F5] rounded-lg px- py-12'>
                 <div className='md:w-7/12 mx-auto'>
                     {/* Host card */}
                     <div class="w-[95%] mx-auto md:w-full flex justify-center items-center gap-10 md:pl-8 py-10 bg-white shadow-md rounded-3xl dark:bg-gray-800 dark:border-gray-700">

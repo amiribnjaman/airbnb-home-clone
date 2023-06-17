@@ -6,7 +6,7 @@ export default function RentalUnit() {
         <div>
             {/* Heading with image */}
             <div className='flex justify-between gap-x-10'>
-                <h2 className='font-semibold text-lg'>Room in a rental unit hosted by Sagrario</h2>
+                <h2 className='font-semibold text-[22px]'>Room in a rental unit hosted by Sagrario</h2>
                 <div>
                     <img className='w-10 h-10 rounded-full bg-gray-200' src="" alt="" />
                 </div>
