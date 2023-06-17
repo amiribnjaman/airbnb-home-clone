@@ -86,16 +86,16 @@ export default function ExploreOtherOptions() {
 
 
                     {/* Footer section */}
-                    <div className='my-10'>
-                        <ul className='flex gap-6 text-[14px] text-black'>
+                    <div className='md:my-10 my-8'>
+                        <ul className='md:flex md:gap-6 text-[14px] text-black'>
                             <li> <a href="" className='hover:underline font-[14px]'>Airbnb</a> </li>
-                            <li className=''>&#8250;</li>
+                            <li className='hidden md:block'>&#8250;</li>
                             <li> <a href="" className='hover:underline font-[14px]'>Spain</a> </li>
-                            <li>&#8250;</li>
+                            <li className='hidden md:block'>&#8250;</li>
                             <li> <a href="" className='hover:underline font-[14px]'>Valencian Community</a> </li>
-                            <li>&#8250;</li>
+                            <li className='hidden md:block'>&#8250;</li>
                             <li> <a href="" className='hover:underline font-[14px]'>Valencia Region</a> </li>
-                            <li>&#8250;</li>
+                            <li className='hidden md:block'>&#8250;</li>
                             <li> <a href="" className='hover:underline font-[14px]'>Valencia</a> </li>
                         </ul>
 

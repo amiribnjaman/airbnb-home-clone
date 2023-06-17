@@ -15,13 +15,15 @@ export default function Banner() {
                 <div className='flex justify-between'>
                     <div>
                         <ul className='md:flex md:gap-2 mb-3 font-semibold text-[13px]'>
-                            <li className='flex items-center gap-x-1'><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                            <li className='flex items-center gap-x-1'><svg xmlns="http://www.w3.org/2000/svg" height="13px" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
                                 <span>4.87</span></li>
                                 
                             <li className='hidden md:block'>&#8226;</li>
                             <li className='underline'>171 reviews</li>
                             <li className='hidden md:block'>&#8226;</li>
-                            <li>Superhost</li>
+                            <li className='flex items-center gap-x-1'>
+                            <svg className='mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style={{display: 'block', height: '13px', fill: 'currentcolor'}}><path d="M16 17a7 7 0 1 1 0 14 7 7 0 0 1 0-14zm0 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM25.67.33a2 2 0 0 1 2 1.85v6.54a2 2 0 0 1-.97 1.7l-.14.08-9.67 4.84a2 2 0 0 1-1.61.07l-.17-.07-9.67-4.84a2 2 0 0 1-1.1-1.62V2.33a2 2 0 0 1 1.84-2h.15zm0 2H6.33v6.39L16 13.55l9.67-4.83z"></path></svg>
+                                <span>Superhost</span></li>
                             <li className='hidden md:block'>&#8226;</li>
                             <li>
                                 <a href="" className='underline'>Valencia</a>
@@ -43,21 +45,21 @@ export default function Banner() {
                 </div>
                 {/* Banners */}
                 <div>
-                    <div className='grid grid-row-2 grid-flow-col gap-x-4'>
+                    <div className='grid grid-row-2 grid-flow-col space-x-4 space-y-1'>
                         <div className='row-span-2 col-span-2'>
-                            <img className='rounded-s-xl' src={Banner1} alt="" />
+                            <img className='rounded-s-xl mt-2' src={Banner1} alt="" />
                         </div>
                         <div className="col-span-1">
-                            <img src={Banner2} height={50} alt="" />
+                            <img className='' src={Banner2} height={50} alt="" />
                         </div>
                         <div className='col-span-1'>
                             <img src={Banner3} height={100} alt="" />
                         </div>
-                        <div className='col-span-1'>
-                            <img src={Banner4} alt="" />
+                        <div className='col-span-1' >
+                            <img style={{borderTopRightRadius: '15px'}} src={Banner4} alt="" />
                         </div>
                         <div className='col-span-1'>
-                            <img className='' src={Banner5} alt="" />
+                            <img style={{borderBottomRightRadius: '15px'}} className='' src={Banner5} alt="" />
                         </div>
                     </div>
                 </div>

@@ -30,7 +30,7 @@ function App() {
 
   // Handle Availability Scroll
   const handleAvailabilityScroll = () => {
-    if (window.scrollY > 3253) {
+    if (window.scrollY > 3490) {
       setShowBtn(true)
     } else {
       setShowBtn(false)

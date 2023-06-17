@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ThingstoKnow() {
     return (
-        <div className='w-[90%] mx-auto'>
+        <div className='w-[90%] mx-auto mb-14'>
             <hr className='mt-8 mb-10' />
             <div class="">
 
