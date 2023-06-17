@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-.App{
+.App {
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -13,19 +13,25 @@
     min-width: 500px !important;
     padding: 30px 0 !important;
 }
-.iVNdVk{
+
+.iVNdVk {
     font-weight: 600;
 }
+
 .calender .eCkURD {
     width: 50%;
     padding: 0 20px !important;
 }
+
 .iWjKOk {
     height: 30px !important;
     width: 30px !important;
 }
-.dGYNXH{
+
+.dGYNXH {
     height: 35px !important;
     width: 35px !important;
 }
 
+/* Custom media query for calender */
+@media screen and (max-width: 500px) {}

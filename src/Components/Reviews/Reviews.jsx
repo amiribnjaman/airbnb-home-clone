@@ -19,44 +19,44 @@ export default function Reviews() {
 
             {/* Reviews top section */}
             <div className='grid grid-cols-2 gap-x-28 gap-y-2 mb-8'>
-                <div>
+                <div className='flex flex-col gap-y-2'>
                     <div className='flex justify-between items-center'>
                         <h6>Cleanliness</h6>
-                        <div class="w-[40%] bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "90%" }}></div>
+                        <div class="w-[40%] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "99%" }}></div>
                         </div>
                     </div>
                     <div className='flex justify-between items-center'>
-                        <h6>Cleanliness</h6>
-                        <div class="w-[40%] bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "90%" }}></div>
+                        <h6>Comunicatoin</h6>
+                        <div class="w-[40%] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "100%" }}></div> 
                         </div>
                     </div>
                     <div className='flex justify-between items-center'>
-                        <h6>Cleanliness</h6>
-                        <div class="w-[40%] bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "90%" }}></div>
+                        <h6>Check-in</h6>
+                        <div class="w-[40%]  flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "100%" }}></div>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                <div className='flex flex-col gap-y-2'>
                     <div className='flex justify-between items-center'>
-                        <h6>Cleanliness</h6>
-                        <div class="w-[40%] bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "90%" }}></div>
+                        <h6>Accuracy</h6>
+                        <div class="w-[40%]  flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "99%" }}></div> 
                         </div>
                     </div>
                     <div className='flex justify-between items-center'>
-                        <h6>Cleanliness</h6>
-                        <div class="w-[40%] bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "90%" }}></div>
+                        <h6>Location</h6>
+                        <div class="w-[40%]  flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "95%" }}></div> 
                         </div>
                     </div>
                     <div className='flex justify-between items-center'>
-                        <h6>Cleanliness</h6>
-                        <div class="w-[40%] bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "90%" }}></div>
+                        <h6>Value</h6>
+                        <div class="w-[40%] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "99%" }}></div>
                         </div>
                     </div>
                 </div>
