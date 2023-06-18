@@ -22,20 +22,31 @@ export default function Reviews() {
                 <div className='flex flex-col gap-y-2'>
                     <div className='flex justify-between items-center'>
                         <h6>Cleanliness</h6>
-                        <div class="w-[40%] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "99%" }}></div>
+                        <div class="w-[40%] md:mr-[-165px] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "96%" }}></div>
+                        </div>
+                        <div>
+                            <span className='font-bold text-[13px]'>4.9</span>
                         </div>
                     </div>
                     <div className='flex justify-between items-center'>
                         <h6>Comunicatoin</h6>
-                        <div class="w-[40%] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "100%" }}></div> 
+                        <div class="w-[40%] mr-[16px] md:mr-[-149px] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "100%" }}></div>
+                        </div>
+
+                        <div>
+                            <span className='font-bold text-[13px]'>5.0</span>
                         </div>
                     </div>
                     <div className='flex justify-between items-center'>
                         <h6>Check-in</h6>
-                        <div class="w-[40%]  flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "100%" }}></div>
+                        <div class="w-[40%] ml-[17px] md:mr-[-168px] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "94%" }}></div>
+                        </div>
+
+                        <div>
+                            <span className='font-bold text-[13px]'>4.8</span>
                         </div>
                     </div>
                 </div>
@@ -43,20 +54,32 @@ export default function Reviews() {
                 <div className='flex flex-col gap-y-2'>
                     <div className='flex justify-between items-center'>
                         <h6>Accuracy</h6>
-                        <div class="w-[40%]  flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "99%" }}></div> 
+                        <div class="w-[40%] ml-[15px] md:mr-[-169px] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "96%" }}></div>
+                        </div>
+
+                        <div>
+                            <span className='font-bold text-[13px]'>4.9</span>
                         </div>
                     </div>
                     <div className='flex justify-between items-center'>
                         <h6>Location</h6>
-                        <div class="w-[40%]  flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "95%" }}></div> 
+                        <div class="w-[40%] ml-[20px] md:mr-[-167px] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "96%" }}></div>
+                        </div>
+
+                        <div>
+                            <span className='font-bold text-[13px]'>4.9</span>
                         </div>
                     </div>
                     <div className='flex justify-between items-center'>
                         <h6>Value</h6>
-                        <div class="w-[40%] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                            <div class="bg-black h-1 rounded-full" style={{ width: "99%" }}></div>
+                        <div class="w-[40%] ml-[36px] md:mr-[-170px] flex gap-1 items-center bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                            <div class="bg-black h-1 rounded-full" style={{ width: "100%" }}></div>
+                        </div>
+
+                        <div>
+                            <span className='font-bold text-[13px]'>5.0</span>
                         </div>
                     </div>
                 </div>

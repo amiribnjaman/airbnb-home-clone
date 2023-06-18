@@ -85,24 +85,24 @@ export default function Footer() {
                             <div className=''>
                                 <ul class="ml-2 mt-0 md:ml-0 flex items-center font-[600] space-x-2 md:space-x-4 text-black dark:text-gray-400">
                                     <li class=" text-sm">
-                                        <a href='/terms/condition' class="hover:underline ">Terms</a>
+                                        <a href='/' class="hover:underline ">Terms</a>
                                     </li>
 
                                     <li className='hidden md:block text-[7px]'>&#8226;</li>
                                     <li className='text-sm'>
-                                        <a href='/affiliate' class="hover:underline">Sitemap</a>
+                                        <a href='/' class="hover:underline">Sitemap</a>
                                     </li>
 
                                     <li className='hidden md:block text-[7px]'>&#8226;</li>
                                     <li className='text-sm'>
-                                        <a href='/faq' class="hover:underline">privacy</a>
+                                        <a href='/' class="hover:underline">privacy</a>
                                     </li>
 
                                     <li className='hidden md:block text-[7px]'>&#8226;</li>
                                     <li className='text-sm'>
-                                        <a href='/privacy/policy' class="hover:underline">Your privacy choices</a>
+                                        <a href='/' class="hover:underline">Your privacy choices</a>
                                     </li>
-                                    <li><svg width="26" height="12" fill="none"><rect x="0.5" y="0.5" width="25" height="11" rx="5.5" fill="#fff"></rect><path d="M14 1h7a5 5 0 010 10H11l3-10z" fill="#06F"></path><path d="M4.5 6.5l1.774 1.774a.25.25 0 00.39-.049L9.5 3.5" stroke="#06F" stroke-linecap="round"></path><path d="M16.5 3.5L19 6m0 0l2.5 2.5M19 6l2.5-2.5M19 6l-2.5 2.5" stroke="#fff" stroke-linecap="round"></path><rect x="0.5" y="0.5" width="25" height="11" rx="5.5" stroke="#06F"></rect></svg></li>
+                                    <li className='hidden md:block'><svg width="26" height="12" fill="none"><rect x="0.5" y="0.5" width="25" height="11" rx="5.5" fill="#fff"></rect><path d="M14 1h7a5 5 0 010 10H11l3-10z" fill="#06F"></path><path d="M4.5 6.5l1.774 1.774a.25.25 0 00.39-.049L9.5 3.5" stroke="#06F" stroke-linecap="round"></path><path d="M16.5 3.5L19 6m0 0l2.5 2.5M19 6l2.5-2.5M19 6l-2.5 2.5" stroke="#fff" stroke-linecap="round"></path><rect x="0.5" y="0.5" width="25" height="11" rx="5.5" stroke="#06F"></rect></svg></li>
                                 </ul>
                             </div>
                         </div>

@@ -35,6 +35,15 @@
     width: 35px !important;
 }
 
+/* Slider custom css */
+.swiper {
+    height: 230px !important;
+}
+.swiper-slide{
+    width: 60% !important;
+    margin-right: 10px !important;
+}
+
 /* Custom media query for calender */
 @media screen and (max-width: 640px) {
     .calender .sc-dhKdcB {
@@ -48,5 +57,17 @@
 
     .sc-jXbUNg {
         /* margin: 0 auto !important; */
+    }
+    .sc-kpDqfm{
+        position: relative;
+    }
+    .sc-kpDqfm span{
+        top: 50% !important;
+    }
+    .sc-kpDqfm .prevbtn-prevbtn, .jjxnOy .prevbtn-prevbtn{
+        left: 0 !important;
+    }
+    .sc-kpDqfm .nextbtn-nextbtn{
+        right: 0px !important;
     }
 }

@@ -12,7 +12,7 @@ export default function MeetHost() {
                     {/* Host card */}
                     <div class="w-[95%] mx-auto md:w-full flex justify-center items-center gap-10 md:pl-8 py-10 bg-white shadow-md rounded-3xl dark:bg-gray-800 dark:border-gray-700">
                         <div className='text-center flex flex-col items-center'>
-                            <img src={HostImg} className='w-16 h-16 rounded-full' alt="" />
+                            <img src={HostImg} className='w-16 h-18 rounded-full' alt="" />
                             <h5 className='font-semibold text-3xl'>Sagraria</h5>
                             <h6 className='text-[14px]'>Superhost</h6>
                         </div>

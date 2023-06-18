@@ -30,7 +30,7 @@ function App() {
 
   // Handle Availability Scroll
   const handleAvailabilityScroll = () => {
-    if (window.scrollY > 3490) {
+    if (window.scrollY > 3510) {
       setShowBtn(true)
     } else {
       setShowBtn(false)
@@ -44,8 +44,16 @@ function App() {
   }, [showSecondaryNav, showBtn])
 
 
+  // Manuel time set for skeleton
+  const [showData, setShowData] = useState(false)
+
+  setTimeout(() => {
+    setShowData(true)
+  }, 3500);
+
   return (
-    <div className="App">
+    <>
+
       <PrimaryNavbar />
       {/* Secondary navbar */}
       <SecondaryNavbar
@@ -53,13 +61,16 @@ function App() {
         showBtn={showBtn}
       />
       <Banner />
-      <MainSection />
-      <Reviews />
-      <Location />
-      <ThingstoKnow />
-      <ExploreOtherOptions />
-      <Footer />
-    </div>
+      {/* Delay those component for skeleton */}
+      {showData === true ? <div className="App">
+        <MainSection />
+        <Reviews />
+        <Location />
+        <ThingstoKnow />
+        <ExploreOtherOptions />
+        <Footer />
+      </div> : ''}
+    </>
   );
 }
 

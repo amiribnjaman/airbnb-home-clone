@@ -35,7 +35,7 @@ export default function MainSection() {
                                     <p className='font-semibold text-[12px] text-[#717171]'>Add Dates</p>
                                 </div>
                             </div>
-                            <div className='px-2 py-4 flex justify-between'>
+                            <div className='px-2 py-4 flex justify-between items-center'>
                                 <div>
                                     <h6 className='font-bold text-[12px]'>GUESTS</h6>
                                     <p className='text-[12px] font-bold'>1 Guest</p>

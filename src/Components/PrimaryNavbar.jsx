@@ -4,7 +4,12 @@ import Logo from '../Assets/Images/logo1.png'
 export default function PrimaryNavbar() {
     const [showDropdown, setShowDropdown] = useState(false)
 
-    
+    // Manuel time set for skeleto
+    const [showData, setShowData] = useState(false)
+    setTimeout(() => {
+        setShowData(true)
+    }, 3500);
+
 
     return (
         <div>
@@ -12,14 +17,19 @@ export default function PrimaryNavbar() {
             <nav class="w-[88%] mx-auto bg-white border-gray-200 dark:bg-gray-900">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-1">
                     <div className='md:w-[35%] -ml-2'>
-                        <a href="" class="flex items-center ">
+                        {showData === true ? <a href="" class="flex items-center ">
                             <img src={Logo} className="w-[120px] h-[70px] text-[#FF385C]" alt="Airbnb logo" />
-                        </a>
+                        </a> : <div role="status" class="max-w-sm animate-pulse flex items-center pt-3">
+                            <div class="w-[150px] h-[40px] bg-gray-200 dark:bg-gray-700 mb-4"></div>
+
+                        </div>}
+
+
                     </div>
 
                     <div className='md:w-[62%] flex flex-wrap items-center justify-between'>
                         {/*---------- Search Box-------*/}
-                        <div className='hidden md:block '>
+                        {showData === true ? <div className='hidden md:block '>
                             <form>
                                 <div class="relative">
                                     <input type="email" id="email" class="block w-[285px] pl-6 leading-6 rounded-full text-md text-black border-1 border-gray-300 font-normal shadow-md py-2.5 bg-gray-50 focus:ring-0 focus:border-none focus:shadow-lg dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Start your search" required />
@@ -28,13 +38,19 @@ export default function PrimaryNavbar() {
                                     </button>
                                 </div>
                             </form>
-                        </div>
-                        <div className='flex'>
+                        </div> : <div role="status" class="max-w-sm animate-pulse flex items-center pt-3">
+                            <div class="w-[300px] h-[35px] bg-gray-200 dark:bg-gray-700 mb-4"></div>
+
+                        </div>}
+
+
+                        {/* Menu right sight */}
+                        {showData === true ? <div className='flex'>
 
 
                             {/* Menu button */}
-                            <div class="flex items-center md:order-2">
-                                <button onClick={()=> setShowDropdown(!showDropdown)} type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex border ml-2 items-center font-medium justify-center px-3 py-2 rounded-full text-sm text-gray-900 dark:text-white cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                            <div class="flex items-center md:order-2 relative">
+                                <button onClick={() => setShowDropdown(!showDropdown)} type="button" data-dropdown-toggle="dropdown-menu" class="inline-flex border ml-2 items-center font-medium justify-center px-3 py-2 rounded-full text-sm text-gray-900 dark:text-white cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
 
                                     <div className='space-x-4 flex items-center'>
                                         <svg xmlns="http://www.w3.org/2000/svg" height={15} width={15} viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" /></svg>
@@ -45,17 +61,17 @@ export default function PrimaryNavbar() {
                                 </button>
 
                                 {/*------------- Drop down menu or Sub menu-----------------*/}
-                                <div class={`z-50 ${showDropdown === true ? '' : 'hidden'} my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700`} id="language-dropdown-menu">
+                                <div class={`z-50 w-[180px] ${showDropdown === true ? 'absolute top-[35px] right-[-10px]' : 'hidden'} border my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700`} id="">
                                     <ul class="py-2 font-medium" role="none">
                                         <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                                            <a href="#" class="block px-4 py-2 text-sm text-black hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
                                                 <div class="inline-flex items-center">
                                                     Sign up
                                                 </div>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                                            <a href="#" class="block px-4 py-2 text-sm text-black hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
                                                 <div class="inline-flex items-center">
                                                     Log in
                                                 </div>
@@ -63,14 +79,14 @@ export default function PrimaryNavbar() {
                                         </li>
                                         <hr className='my-4' />
                                         <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                                            <a href="#" class="block px-4 py-2 text-sm text-black hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
                                                 <div class="inline-flex items-center">
                                                     Airbnb your home
                                                 </div>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                                            <a href="#" class="block px-4 py-2 text-sm text-black hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
                                                 <div class="inline-flex items-center">
                                                     Help
                                                 </div>
@@ -81,9 +97,9 @@ export default function PrimaryNavbar() {
 
                                 {/*---------- Humberger icon for mobile menu-------------*/}
                                 {/* <button data-collapse-toggle="mobile-menu-language-select" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-language-select" aria-expanded="false">
-                                    <span class="sr-only">Open main menu</span>
-                                    <svg class="w-6 h-6" fill="currentColor" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                                </button> */}
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" fill="currentColor" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+    </button> */}
                             </div>
                             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-language-select">
                                 <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-2 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
@@ -97,7 +113,10 @@ export default function PrimaryNavbar() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> : <div role="status" class="max-w-sm animate-pulse flex items-center pt-3">
+                            <div class="w-[300px] h-[35px] bg-gray-200 dark:bg-gray-700 mb-4"></div>
+
+                        </div>}
                     </div>
                 </div>
             </nav>
